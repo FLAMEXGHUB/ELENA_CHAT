@@ -28,10 +28,13 @@ client = Client(SESSION_NAME, API_ID, API_HASH)
 
 
 @client.on_message(
-    filters.command("alive", prefixes=["/", ".", "?", "-"])
+    filters.command("elena", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def start(client, message):
-    await message.reply_text(f"**ᴀʟᴇxᴀ ᴀɪ ᴜsᴇʀʙᴏᴛ ғᴏʀ ᴄʜᴀᴛᴛɪɴɢ ɪs ᴡᴏʀᴋɪɴɢ**")
+    await message.reply_text(f"ℍ𝔼𝕐 𝔹𝔸𝔹𝔼𝕊 🥀 
+ɪ ᴇʟᴇɴᴀ ᴀɪ ᴄʜᴀᴛ ʙᴏᴛ ᴀɴᴅ ɪ'ᴍ ᴡᴏʀᴋɪɴɢ ғɪɴᴇ ✨
+
+🔥𝗜 𝗔𝗠 𝗙𝗥𝗢𝗠 ~ @FL4ME_NETWORK 🔥")
     
     
 @client.on_message(
